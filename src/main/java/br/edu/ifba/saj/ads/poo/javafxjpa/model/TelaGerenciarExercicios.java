@@ -20,12 +20,12 @@ public class TelaGerenciarExercicios extends Application {
 
     private Stage primaryStage;
 
-    public TelaGerenciarExercicios(Stage primaryStage) {
+    public TelaGerenciarExercicios(@SuppressWarnings("exports") Stage primaryStage) {
         this.primaryStage = primaryStage;
     }
 
     @Override
-    public void start(Stage primaryStage) {
+    public void start(@SuppressWarnings("exports") Stage primaryStage) {
         this.primaryStage = primaryStage;
         exibirTelaGerenciarExercicios();
     }

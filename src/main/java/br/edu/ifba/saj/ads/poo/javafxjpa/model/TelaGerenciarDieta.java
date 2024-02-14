@@ -20,12 +20,12 @@ public class TelaGerenciarDieta extends Application {
     public TelaGerenciarDieta() {
     }
 
-    public TelaGerenciarDieta(Stage primaryStage) {
+    public TelaGerenciarDieta(@SuppressWarnings("exports") Stage primaryStage) {
         this.primaryStage = primaryStage;
     }
 
     @Override
-    public void start(Stage primaryStage) {
+    public void start(@SuppressWarnings("exports") Stage primaryStage) {
         this.primaryStage = primaryStage;
         exibirTelaGerenciarDieta();
     }

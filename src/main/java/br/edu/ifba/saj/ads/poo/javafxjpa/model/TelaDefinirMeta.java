@@ -23,12 +23,12 @@ public class TelaDefinirMeta extends Application {
 
     private Stage primaryStage;
 
-    public TelaDefinirMeta(Stage primaryStage) {
+    public TelaDefinirMeta(@SuppressWarnings("exports") Stage primaryStage) {
         this.primaryStage = primaryStage;
     }
 
     @Override
-    public void start(Stage primaryStage) {
+    public void start(@SuppressWarnings("exports") Stage primaryStage) {
         this.primaryStage = primaryStage;
         exibirTelaDefinirMeta();
     }

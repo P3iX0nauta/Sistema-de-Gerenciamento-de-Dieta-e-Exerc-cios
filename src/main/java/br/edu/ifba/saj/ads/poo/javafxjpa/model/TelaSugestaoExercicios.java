@@ -33,7 +33,7 @@ public class TelaSugestaoExercicios extends Application {
         this.sugestoes = sugestoes;
     }
 
-    public TelaSugestaoExercicios(Stage primaryStage) {
+    public TelaSugestaoExercicios(@SuppressWarnings("exports") Stage primaryStage) {
         this.primaryStage = primaryStage;
         inicializarSugestoesPadrao();
     }
@@ -45,7 +45,7 @@ public class TelaSugestaoExercicios extends Application {
     }
 
     @Override
-    public void start(Stage primaryStage) {
+    public void start(@SuppressWarnings("exports") Stage primaryStage) {
         this.primaryStage = primaryStage;
         exibirTelaSugestaoExercicios();
     }

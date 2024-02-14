@@ -22,12 +22,12 @@ public class TelaAdicionarRefeicao extends Application {
 
     private Stage primaryStage;
 
-    public TelaAdicionarRefeicao(Stage primaryStage) {
+    public TelaAdicionarRefeicao(@SuppressWarnings("exports") Stage primaryStage) {
         this.primaryStage = primaryStage;
     }
 
     @Override
-    public void start(Stage primaryStage) {
+    public void start(@SuppressWarnings("exports") Stage primaryStage) {
         this.primaryStage = primaryStage;
         exibirTelaAdicionarRefeicao();
     }

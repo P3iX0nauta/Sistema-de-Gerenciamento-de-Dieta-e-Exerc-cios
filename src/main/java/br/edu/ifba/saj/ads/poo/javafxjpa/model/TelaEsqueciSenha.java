@@ -16,7 +16,7 @@ public class TelaEsqueciSenha {
 
     private Stage primaryStage;
 
-    public TelaEsqueciSenha(Stage primaryStage) {
+    public TelaEsqueciSenha(@SuppressWarnings("exports") Stage primaryStage) {
         this.primaryStage = primaryStage;
     }
 
