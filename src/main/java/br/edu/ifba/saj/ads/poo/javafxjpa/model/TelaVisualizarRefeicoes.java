@@ -25,14 +25,14 @@ public class TelaVisualizarRefeicoes extends Application {
     private List<Refeicao> refeicoes;
     private List<String> sugestoes;
 
-    public TelaVisualizarRefeicoes(@SuppressWarnings("exports") Stage primaryStage, @SuppressWarnings("exports") List<Refeicao> refeicoes, List<String> sugestoes) {
+    public TelaVisualizarRefeicoes(Stage primaryStage, @SuppressWarnings("exports") List<Refeicao> refeicoes, List<String> sugestoes) {
         this.primaryStage = primaryStage;
         this.refeicoes = refeicoes;
         this.sugestoes = sugestoes;
     }
 
     @Override
-    public void start(@SuppressWarnings("exports") Stage primaryStage) {
+    public void start(Stage primaryStage) {
         this.primaryStage = primaryStage;
         exibirTelaVisualizarRefeicoes();
     }

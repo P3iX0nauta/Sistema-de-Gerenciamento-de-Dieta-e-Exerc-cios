@@ -22,12 +22,12 @@ public class TelaLogin extends Application {
     public TelaLogin() {
     }
 
-    public TelaLogin(@SuppressWarnings("exports") Stage stage) {
+    public TelaLogin(Stage stage) {
         this.primaryStage = stage;
     }
 
     @Override
-    public void start(@SuppressWarnings("exports") Stage primaryStage) {
+    public void start(Stage primaryStage) {
         this.primaryStage = primaryStage;
         exibirTelaLogin();
     }

@@ -17,12 +17,12 @@ public class TelaContabilizarCalorias extends Application {
 
     private Stage primaryStage;
 
-    public TelaContabilizarCalorias(@SuppressWarnings("exports") Stage primaryStage) {
+    public TelaContabilizarCalorias(Stage primaryStage) {
         this.primaryStage = primaryStage;
     }
 
     @Override
-    public void start(@SuppressWarnings("exports") Stage primaryStage) {
+    public void start(Stage primaryStage) {
         this.primaryStage = primaryStage;
         exibirTelaContabilizarCalorias();
     }

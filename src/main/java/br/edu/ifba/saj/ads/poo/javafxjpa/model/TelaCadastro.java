@@ -22,7 +22,7 @@ public class TelaCadastro {
 
     private Stage primaryStage;
 
-    public TelaCadastro(@SuppressWarnings("exports") Stage primaryStage) {
+    public TelaCadastro(Stage primaryStage) {
         this.primaryStage = primaryStage;
     }
 

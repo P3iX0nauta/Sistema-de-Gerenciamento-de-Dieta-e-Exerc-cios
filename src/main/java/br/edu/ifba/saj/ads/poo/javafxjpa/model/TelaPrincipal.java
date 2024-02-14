@@ -18,12 +18,12 @@ public class TelaPrincipal extends Application {
     private Stage primaryStage;
     private String nomeUsuario;
     
-    public TelaPrincipal(@SuppressWarnings("exports") Stage primaryStage) {
+    public TelaPrincipal(Stage primaryStage) {
         this.primaryStage = primaryStage;
         this.nomeUsuario = "Gustavo"; // nome de usuario
     }
     @Override
-    public void start(@SuppressWarnings("exports") Stage primaryStage) throws Exception {
+    public void start(Stage primaryStage) throws Exception {
         this.primaryStage = primaryStage;
         exibirTelaPrincipal();
     }

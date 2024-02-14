@@ -24,7 +24,7 @@ public class TelaAcompanharProgresso extends Application {
     private String[] categorias = {"Categoria 1", "Categoria 2", "Categoria 3", "Categoria 4", "Categoria 5"};
 
     @Override
-    public void start(@SuppressWarnings("exports") Stage primaryStage) {
+    public void start(Stage primaryStage) {
         this.primaryStage = primaryStage;
         exibirTelaAcompanhamentoProgresso();
     }

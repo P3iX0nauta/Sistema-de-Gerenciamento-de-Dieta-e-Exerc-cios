@@ -35,12 +35,12 @@ public class TelaSugestaoDieta extends Application {
         sugestoes.add("Café da manhã:\nOpção 1: Mingau de aveia com frutas vermelhas\nOpção 2: Tapioca recheada com queijo branco\n\nLanche da manhã:\nOpção 1: Frutas da estação\nOpção 2: Barra de cereais\n\nAlmoço:\nOpção 1: Salada de rúcula, tomate e queijo feta\nOpção 2: Quibe assado de abóbora\n\nLanche da tarde:\nOpção 1: Smoothie de abacaxi com hortelã\nOpção 2: Palitos de cenoura com guacamole\n\nJantar:\nOpção 1: Risoto de cogumelos\nOpção 2: Peito de frango recheado com espinafre\n\nLanche da noite:\nOpção 1: Iogurte com granola\nOpção 2: Chá de camomila");
     }
 
-    public TelaSugestaoDieta(@SuppressWarnings("exports") Stage primaryStage) {
+    public TelaSugestaoDieta(Stage primaryStage) {
         this.primaryStage = primaryStage;
     }
 
     @Override
-    public void start(@SuppressWarnings("exports") Stage primaryStage) {
+    public void start(Stage primaryStage) {
         this.primaryStage = primaryStage;
         exibirTelaSugestaoDieta();
     }

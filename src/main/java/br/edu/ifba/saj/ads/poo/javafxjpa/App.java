@@ -11,7 +11,7 @@ public class App extends Application {
     }
 
     @Override
-    public void start(@SuppressWarnings("exports") Stage primaryStage) {
+    public void start(Stage primaryStage) {
         TelaLogin telaLogin = new TelaLogin();
         telaLogin.start(primaryStage);
     }
